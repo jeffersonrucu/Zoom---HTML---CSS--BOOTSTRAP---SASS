@@ -1,0 +1,17 @@
+input.form-control.p-4::placeholder {
+    color: #fff;
+}
+
+
+.form-control{
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid #fff;
+    border-radius: 0%;
+    color: #fff !important;
+
+    &:focus{
+        background: rgba(0, 0, 0, 0.1);
+        border: 1px solid #fff;
+        box-shadow: 0 0 0 0.0;
+    }
+}

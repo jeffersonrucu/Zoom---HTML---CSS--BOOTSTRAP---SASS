@@ -1,17 +1,33 @@
-@import "variables/media";
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
 
-@import "mixin/media";
+//var
+@import 'variable/var';
 
-@import "util/grid";
+//background
+@import 'components/background';
 
-@import "lib/normalize";
+//color
+@import 'components/color';
 
-@import "modifier/margin";
+//buttons
+@import 'components/buttons';
 
-@import 'base/base';
-@import 'base/fonts';
+//size
+@import 'components/sizes';
 
-@import 'module/cat';
+//text
+@import 'components/texts';
 
+//img
+@import 'components/img';
 
+//navs
+@import 'components/nav';
 
+//form
+@import 'components/form';
+
+//carousel
+@import 'components/carousel';

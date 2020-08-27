@@ -1,0 +1,39 @@
+.button-main {
+    width: 253px;
+    height: 73px;
+}
+
+.button-primary {
+    width: 200px;
+    height: 60px;
+}
+
+
+.btn-outline {
+    width: 173px;
+    height: 53px;
+    background: url(../img/Combinedbotao.png);
+}
+
+.btn-primary{
+    border-color: transparent;
+
+    &:hover{
+        border-color: transparent;
+    }
+
+    &:focus{
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    &:not(:disabled):not(.disabled):active{
+        background-color: transparent;
+        border-color: transparent;
+    }
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.0rem
+}

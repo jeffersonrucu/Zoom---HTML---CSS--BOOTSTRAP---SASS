@@ -1,0 +1,96 @@
+.owl-carousel{
+    .owl-item{
+        min-height: 150px;
+
+        img{
+            width: 36px;
+        }
+    }
+
+    .owl-nav{
+        button.owl-next{
+            width: 32px;
+            height: 32px;
+            background-color: #fff;
+            color: transparent;
+            position: relative;
+            border-radius: 100%; 
+
+            &:hover{
+                width: 32px;
+                height: 32px;
+                color: transparent;
+                position: relative;
+                background-color: #fff;
+                border-radius: 100%; 
+            }
+
+            &::before{
+                content: '';
+                background-color: #ff3E57;
+                width: 1px;
+                height: 14px;
+                display: block;
+                position: absolute;
+                top: 15px;
+                left: 18px;
+                transform: rotate(45deg);
+            }
+
+            &::after{
+                content: '';
+                background-color: #ff3E57;
+                width: 1px;
+                height: 14px;
+                display: block;
+                position: absolute;
+                top: 5px;
+                left: 18px;
+                transform: rotate(-45deg);
+            }
+        }
+
+        button.owl-prev{
+            width: 32px;
+            height: 32px;
+            color: transparent;
+            position: relative;
+            background-color: #fff;
+            border-radius: 100%; 
+            
+            &:hover{
+                width: 32px;
+                height: 32px;
+                color: transparent;
+                position: relative;
+                background-color: #fff;
+                border-radius: 100%; 
+            }
+            &::before{
+                content: '';
+                background-color: #ff3E57;
+                width: 1px;
+                height: 14px;
+                display: block;
+                position: absolute;
+                top: 15px;
+                left: 15px;
+                transform: rotate(135deg);
+            }
+
+            &::after{
+                content: '';
+                background-color: #ff3E57;
+                width: 1px;
+                height: 14px;
+                display: block;
+                position: absolute;
+                top: 5px;
+                left: 15px;
+                transform: rotate(-135deg);
+            }
+        }
+        
+    }
+}
+

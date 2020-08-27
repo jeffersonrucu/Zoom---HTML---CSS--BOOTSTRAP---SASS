@@ -1,0 +1,20 @@
+.navbar-light{
+    .navbar-nav{
+        .nav-link{
+            color: #3F4244;
+            font-size: 15px;
+
+            &:hover{
+                background: linear-gradient(180deg, #6DFFC6 0%, #3FD2CE 100%);
+                color: #fff; 
+                border-radius: 5px 5px; 
+            }
+        }
+    }
+}
+
+.nav-filter:hover{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #ffffff;
+}
